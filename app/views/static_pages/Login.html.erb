@@ -1,0 +1,43 @@
+<div class="col">
+  <table style="height: 100vh; width:100%">
+    <tbody>
+      <tr>
+        <td class="align-middle">
+
+          <div style="max-width:500px;margin:auto;padding:10px; ">
+            <div style="text-align:center">
+              <h1>Tutify</h1>
+            </div>
+
+            <form >
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">
+                  keep me signed in
+                </label>
+              </div>
+              <br>
+
+              <button type="submit"  class="btn btn-primary btn-block">login</button>
+            </form>
+            <br>
+            <%= link_to "login with Facebook", static_pages_Personalize_path, {:class=> "btn btn-primary btn-block"}%>
+            <br>
+            <%= link_to "login with Google+", static_pages_Personalize_path, {:class=> "btn btn-block btn-danger"}%>
+
+          </div>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

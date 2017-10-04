@@ -1,0 +1,89 @@
+<div class="row">
+  <div class="col col-12">
+    <br>
+    <br>
+    <br>
+    <div class="image-background" style="height:200px;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStcr7uOuASWen812rCNu8CG26nX2rkqC0n-Zu6164YlzSs-MBhdw)">
+      <form style="padding-top: 10px; margin: 30px">
+        <div class="row">
+          <div class="col">
+            <h1>Filter</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <input type="text" class="form-control" placeholder="tags, name, etc...">
+          </div>
+          <div class="col-md-3">
+            <select class="form-control mb-2 mr-sm-2 mb-sm-0">
+              <option>none</option>
+              <option>Math</option>
+              <option>Science</option>
+              <option>Music</option>
+              <option>Theology</option>
+              <option>PickUpGirl</option>
+              <option>English</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </div>
+        </div>
+        <label class="sr-only" for="inlineFormInputName2">Search</label>
+        <label class="sr-only"  for="inlineFormInputName2">Categories</label>
+
+
+      </form>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col col-12">
+    <h1>Popular</h1>
+  </div>
+  <% 1.upto(3) do |i|%>
+    <%= render 'static_pages/tutorialPanel'%>
+    <%= render 'static_pages/reviewPanel'%>
+  <% end %>
+
+
+
+</div>
+<br>
+<div class="row">
+  <div class="col col-12">
+    <h1>Math</h1>
+  </div>
+  <%= render 'static_pages/tutorialPanel'%>
+  <%= render 'static_pages/reviewPanel'%>
+  <%= render 'static_pages/reviewPanel'%>
+</div>
+<br>
+<div class="row">
+  <div class="col col-12">
+    <h1>Science</h1>
+  </div>
+  <%= render 'static_pages/tutorialPanel'%>
+  <%= render 'static_pages/reviewPanel'%>
+  <%= render 'static_pages/reviewPanel'%>
+</div>
+<div class="row">
+  <div class="col">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="loader"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>

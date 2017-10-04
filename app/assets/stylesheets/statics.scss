@@ -1,0 +1,101 @@
+// Place all the styles related to the Statics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.cover-btn{
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:200px;
+  margin-top:10px;
+}
+.form-back{
+  background-color: red;
+  padding:5px;
+}
+.image-background{
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:150px;
+  position:relative
+}
+.card-me{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card-me__content_wrapper{
+  padding: 5px;
+  position:absolute;bottom:0;
+}
+.card-me__content_wrapper h5{
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+}
+.card-me .tag{
+  position:absolute;
+  top: 0;
+  right: 5px;
+}
+.col h1{
+  margin-top: 50px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.col h2{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.loader {
+
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.category-btn button{
+  margin-top: 20px;
+  height: 75px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:inherit;
+     text-decoration:none;
+     cursor:pointer;
+}
+.article-image{
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:50vh;
+  position:relative
+}
+.profile-info{
+  text-align: center;
+}
+.image-profile{
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:150px;
+  width:150px;
+  position:relative;
+  border-radius: 50%;
+  margin: auto;
+  margin-top:100px;
+}
