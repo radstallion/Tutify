@@ -13,21 +13,25 @@
       <%= link_to "Take me to next step", static_pages_Browse_path , {:class => "fixed-bottom btn btn-block btn-primary btn-lg"} %>
 
     </div>
+
     <br>
     <br>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Robotics</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Math</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Physics</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Chemistry</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Biology</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Economy</h1></button>
-    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h1>Astrology</h1></button>
+    <br>
+    <h3>Toggle To Select</h3>
+    <hr>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Robotics</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Math</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Physics</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Chemistry</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Biology</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Economy</h3></button>
+    <button type="submit" class="btn btn-block cover-btn"  onclick="changeclass(this);"><h3>Astrology</h3></button>
     <br>
     <br>
     <br>
     <script type="text/javascript">
     function changeclass(element) {
-      $(element).toggleClass('btn-dark');
+      $(element).toggleClass('btn-success');
     }
     </script>
   </div>

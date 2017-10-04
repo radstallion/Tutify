@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def Login
+    @disable_nav = true
   end
 
   def Article
@@ -18,5 +19,6 @@ class StaticPagesController < ApplicationController
   end
 
   def Personalize
+    @disable_nav = true
   end
 end
